@@ -1,0 +1,296 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Whitney, Helvetica, Neue, sans-serif;
+}
+
+header {
+    background-color: #3161E0;
+}
+
+.container {
+    max-width: 60rem;
+    margin: auto;
+    padding: 1rem 0;
+}
+
+section {
+    padding: 5rem 0;
+}
+
+.container-hd {
+    background-color: #3161E0;
+    min-height: 3.125rem;
+    padding: 2rem;
+}
+
+.contain-nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-center>ul {
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 1.25rem;
+    color: white;
+}
+
+.nav-center>ul>li {
+    list-style: none;
+    padding: 0.313rem;
+}
+
+.nav-center {
+    padding-top: 0.4rem;
+}
+
+.login-right {
+    border: 1px solid transparent;
+    border-radius: 1.25rem;
+    background-color: white;
+    align-self: center;
+    padding: 0.5rem;
+}
+
+.container-intro-hd>p {
+    margin: auto;
+    color: white;
+    max-width: 46.875;
+    text-align: center;
+}
+
+.Title-hd {
+    text-align: center;
+    color: white;
+    padding: 4rem;
+    font-size: 2rem;
+}
+
+.container-intro-hd {
+    background-image: url(../img/jumbo.png);
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 4rem;
+}
+
+.button {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn {
+    border: transparent;
+    border-radius: 1.25rem;
+    padding: 0.8rem;
+}
+
+.btn.open {
+    background-color: #23272A;
+    color: white;
+}
+
+.d-flex.sect-second {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.d-flex.sect-third {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.d-flex.sect-fourth {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.d-flex.sect-fifth {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.d-flex.sect-sixth {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sect.second {
+    min-height: 25rem;
+    padding: 4rem 0.5rem;
+}
+
+.element.first {
+    width: 60%;
+    min-height: 18.75rem;
+}
+
+.element.second {
+    width: 40%;
+    min-height: 18.75rem;
+}
+
+.element.second h2 {
+    text-align: left;
+    padding: 1rem 1rem 1rem 7rem;
+    font-size: 1.7rem;
+    color: #3D4042;
+}
+
+.container .sect-third h2 {
+    padding: 8rem 1rem 1rem 3rem;
+}
+
+.third .container .sect-third p {
+    padding: 1rem 1rem 1rem 3rem;
+}
+
+.container .sect-fourth h2 {
+    padding: 6rem 1rem 1rem 8rem
+}
+
+.fourth .container .sect-fourth p {
+    padding: 1rem 1rem 1rem 8rem;
+}
+
+.element.second p {
+    text-align: left;
+    padding: 1rem 1rem 1rem 7rem;
+    font-size: 1.2rem;
+    color: #3D4042;
+}
+
+.sect-fifth p {
+    text-align: center;
+    padding: 2rem;
+    max-width: 50rem;
+}
+
+.Title-fifth {
+    font-size: 1.7rem;
+}
+
+.d-flex.sect-third {
+    flex-direction: row-reverse;
+}
+
+.sect.third {
+    background-color: #F6F6F6;
+}
+
+.sect.fifth {
+    background-color: #F6F6F6;
+}
+
+.download {
+    background-color: #8EA1E1;
+}
+
+.sixth {
+    background-color: #0E0E0E;
+}
+
+.d-flex-f {
+    display: flex;
+    flex-direction: column;
+}
+
+.element.f-first {
+    flex-grow: 2;
+    align-items: stretch;
+    min-height: 18.75rem;
+}   
+
+.element.f-first h2 {
+color:  #8EA1E1;
+}
+
+.f-second li {
+    list-style: none;
+    text-decoration: none;
+    padding: 0.5rem 0;
+}
+
+.f-second li a {
+    text-decoration: none;
+    color: white;
+}
+
+.element.f-first .language {
+    color:  white;
+    }
+
+.element.f-second {
+    flex-grow: 1;
+}
+
+.d-flex-foot {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.d-flex-f img {
+    width: 3%;
+    padding: 0.5rem 0;
+}
+
+.fa-brands {
+    color: white;
+    padding: 1rem 0.5rem;
+}
+
+.d-flex-f select {
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+.f-second h4 {
+    color: #8EA1E1;
+    padding: 0.3rem 0;
+}
+
+.line-footer {
+    border: 1px solid #8EA1E1;
+}
+
+footer.sect.fifth {
+    min-height: unset;
+    padding-bottom: 0;
+}
+
+.foot {
+    padding: 5px 5px 5px;
+}
+
+.d-flex.foot {
+    justify-content: space-between;
+}
+
+.footer-last {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sect.seventh {
+    background-color: #0E0E0E;
+}
+
+.foot-bottom {
+    border: 1px transparent;
+    border-radius: 25px;
+    background-color: #8EA1E1;
+    color: white;
+    padding: 15px 10px;
+}
